@@ -33,7 +33,7 @@ load_dotenv()
 
 # Sonnet 4.6 for verdicts — this is the judgment call that matters most.
 # More expensive than Haiku but significantly better reasoning on nuanced evidence.
-MODEL = "claude-sonnet-4-6"
+MODEL = "claude-sonnet-4-6-20250514"
 
 PROMISES_DIR    = Path("data/promises")
 REPORT_FILE     = Path("data/verdicts_report.json")

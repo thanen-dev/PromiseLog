@@ -49,4 +49,10 @@ From the project root, run these scripts in this exact order:
 5. `python publisher.py`  
    Builds or updates the static site in the `site/` folder for publication via GitHub Pages.
 
+## GitHub Pages
 
+After pushing to GitHub, enable GitHub Pages in the repository settings:
+
+Settings → Pages → Source: main branch → Folder: `/site` → Save.
+
+GitHub will then serve the static site from the `site` directory.
