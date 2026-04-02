@@ -1,0 +1,5 @@
+.env
+data/raw_speeches/
+__pycache__/
+*.pyc
+.DS_Store
